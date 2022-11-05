@@ -106,6 +106,24 @@ sns.scatterplot(x='age', y='charges', hue="smoker", data=data)
 *   На сборы не влияет только возраст.
 *   Курильщики платят большие сборы.
 
+```python
+sns.pairplot(data=data, hue='sex')
+```
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/10931fd9cf841fc7a536de5d2e667972b64b2052daa7237f.png)
+
+```python
+sns.pairplot(data=data, hue='smoker')
+```
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/8de9992aca9d16b4a42751a19437efe86df63bb617b7ae3e.png)
+
+```python
+sns.pairplot(data=data, hue='region')
+```
+
+![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/e3666fedad2fb6a510ce86ab2acf44f7b82837eac71333de.png)
+
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/cc67f8c378b482d5b43191a9854e865a6c1429b2a676813e.png)
 
 *   Несмотря на то, что число курильщиков составляет около 20%, однако в размере сборов курильщики платят столько же, как платят некурящие.
