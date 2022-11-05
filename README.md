@@ -20,4 +20,4 @@
 
 Полный датасет можно посмотреть в приложенном к этой задаче файле.
 
-Код задачи можно посмотреть [Google Colab](https://colab.research.google.com/drive/17gXNkejYPzPHG-EZiDe8hSInJNpPpCpc#scrollTo=35hLC4Mi6ily).
+Код задачи можно посмотреть [Google Colab](https://colab.research.google.com/drive/17gXNkejYPzPHG-EZiDe8hSInJNpPpCpc#scrollTo=35hLC4Mi6ily), либо в приложенном файле.
